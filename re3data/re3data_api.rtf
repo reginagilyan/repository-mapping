@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # %%\
+import requests\
+import xml.etree.ElementTree as ET\
+import time\
+import json\
+import xmltodict\
+\
+#%% \
+# get record ids\
+index_url = "https://www.re3data.org/api/v1/repositories"\
+response = requests.get(index_url)\
+root = ET.fromstring(response.content)\
+\
+\
+all_repo_ids = [repo.find('id').text for repo in root.findall('repository')]\
+\
+print(f"Total re3data repositories to check: \{len(all_repo_ids)\}")\
+# found 3491 repositories on 14.04.2026\
+\
+# %%\
+# get full records of ids\
+re3_full_records = []\
+skipped_count = 0\
+\
+# load mapping from the other file\
+with open("fs_to_re3_mapping.json", "r") as f:\
+    fs_to_re3_mapping = json.load(f)\
+\
+known_ids = set(fs_to_re3_mapping.values())\
+\
+for i, r3d_id in enumerate(all_repo_ids):\
+    # DEDUPLICATION CHECK\
+    if r3d_id in known_ids:\
+        skipped_count += 1\
+\
+\
+    detail_url = f"https://www.re3data.org/api/v1/repository/\{r3d_id\}"\
+    \
+    try:\
+        resp = requests.get(detail_url)\
+        if resp.status_code == 200:\
+            # save the raw XML text for now\
+            re3_full_records.append(resp.text)\
+        \
+        # pause after every 10 record\
+        if i % 10 == 0:\
+            print(f"Progress: \{i\}/\{len(all_repo_ids)\} downloaded...")\
+            time.sleep(0.5) \
+            \
+    except Exception as e:\
+        print(f"Error downloading \{r3d_id\}: \{e\}")\
+\
+print(f"Finished! Downloaded \{len(re3_full_records)\} new records. Skipped \{skipped_count\} duplicates.")\
+# %%\
+with open("re3data_all_records.json", "w", encoding="utf-8") as f:\
+    json.dump(re3_full_records, f)\
+\
+with open("re3data_all_records.json", "r") as f:\
+    re3_all_records = json.load(f)\
+# %%\
+# helper function to print xml\
+def print_structure(element, level=0):\
+    indent = "  " * level\
+    # strip namespace\
+    tag = element.tag.split('\}')[-1] \
+    \
+    text = element.text.strip() if element.text else ""\
+    if text:\
+        # increased limit for better reading\
+        print(f"\{indent\}<\{tag\}>: \{text[:70]\}\{'...' if len(text)>70 else ''\}")\
+    else:\
+        print(f"\{indent\}<\{tag\}>")\
+        \
+    for child in element:\
+        print_structure(child, level + 1)\
+\
+# %%\
+# filtering for covid\
+# looked through subject 2 == life science\
+covid_keywords = ['covid', 'sars-cov', 'coronavirus', 'coronaviridae', 'ncov']\
+re3_covid = []\
+\
+for xml_text in re3_all_records:\
+    root = ET.fromstring(xml_text)\
+    \
+    subjects = [s.text for s in root.findall(".//\{*\}subject") if s.text]\
+    is_life_science = any(s.startswith('2') for s in subjects)\
+    \
+    if is_life_science:\
+        name = root.find(".//\{*\}repositoryName").text if root.find(".//\{*\}repositoryName") is not None else ""\
+        desc = root.find(".//\{*\}description").text if root.find(".//\{*\}description") is not None else ""\
+        keywords = [k.text for k in root.findall(".//\{*\}keyword") if k.text]\
+        \
+        full_text_blob = (name + " " + desc + " " + " ".join(keywords)).lower()\
+        \
+        if any(key in full_text_blob for key in covid_keywords):\
+            repo_id = root.find(".//\{*\}re3data.orgIdentifier").text\
+            # save xml so can inspect later\
+            re3_covid.append(\{\
+                "id": repo_id,\
+                "name": name,\
+                "subjects": subjects,\
+                "raw_xml": xml_text \
+            \})\
+\
+print(f"Found \{len(re3_covid)\} potential COVID repositories in the Life Sciences.")\
+\
+# %%\
+# look at subjects \
+subject_counts = \{\}\
+for record in re3_covid:\
+    subjects = record.get('subjects', [])\
+    if subjects:\
+        # sort by code length to find the most specific one\
+        sorted_subjects = sorted(subjects, key=lambda s: len(s.split(' ')[0]), reverse=True)\
+        most_specific = sorted_subjects[0]\
+        subject_counts[most_specific] = subject_counts.get(most_specific, 0) + 1\
+\
+print("\\n--- Breakdown of repositories by subject ---")\
+for sub, count in sorted(subject_counts.items(), key=lambda item: item[1], reverse=True):\
+    print(f"\{sub\}: \{count\} repositories")\
+\
+# %%\
+# inspect a record\
+if re3_covid:\
+    print("\\n--- SAMPLE COVID RECORD ---")\
+    sample_xml = re3_covid[5]['raw_xml'] \
+    sample_root = ET.fromstring(sample_xml)\
+    print_structure(sample_root)\
+# %%\
+print("\\n--- CHECKING HUMANITIES/SOCIAL SCIENCE MATCHES ---")\
+count = 0\
+for record in re3_covid:\
+    # check if 'most specific' subject starts with '1'\
+    subjects = record.get('subjects', [])\
+    sorted_subjects = sorted(subjects, key=lambda s: len(s.split(' ')[0]), reverse=True)\
+    \
+    if sorted_subjects and sorted_subjects[0].startswith('1'):\
+        count += 1\
+        print(f"\\n[\{count\}] Name: \{record['name']\}")\
+        print(f"All Subjects: \{subjects\}")\
+        \
+        sample_root = ET.fromstring(record['raw_xml'])\
+        print_structure(sample_root)\
+# %%\
+}

@@ -1,0 +1,1600 @@
+
+--- DOMAINS ---
+Total Unique: 420
+climate: 121
+marine environment: 69
+genome: 66
+data storage: 65
+Expression data: 49
+disease: 48
+Taxonomic classification: 45
+FAIR: 45
+protein: 44
+gene: 42
+Bioimaging: 39
+Monitoring: 39
+deoxyribonucleic acid: 39
+region: 39
+Patient Care: 39
+DNA sequence: 38
+Imaging: 38
+phenotype: 35
+cancer: 34
+Resource metadata: 33
+Geographic location: 30
+curated information: 27
+Structure: 26
+Genome annotation: 26
+genotype: 25
+Genetic Polymorphism: 25
+Biospecimen: 25
+structure: 25
+digital curation: 24
+Experimental measurement: 23
+Medical imaging: 22
+centrally registered identifier: 21
+Machine Learning: 21
+neuroimaging measurement: 20
+Annotation: 18
+Genome visualisation: 18
+gene expression: 18
+Nucleic acid sequence: 17
+Data analysis: 17
+Sustainability: 17
+ecosystem: 17
+Prediction and recognition: 17
+SNP: 15
+Mass spectrum: 15
+RNA-seq assay: 15
+Classification: 15
+brain: 15
+Sample annotation: 14
+sequencing assay: 14
+Protein structure: 14
+electron microscopy: 14
+ribonucleic acid: 13
+environmental contaminant: 13
+microscopy: 13
+genetic disorder: 13
+behavior: 13
+cell: 13
+cell line: 13
+data management: 12
+Model organisms: 12
+food: 12
+radiation: 12
+histological assay: 12
+X-ray diffraction: 12
+Genome assembly: 11
+immunoglobulin complex, circulating: 11
+genome-wide association study: 11
+aging: 11
+Sequence annotation: 10
+Next Generation Sequencing: 10
+Biocuration: 10
+environmental material: 10
+mutation: 10
+cognition: 9
+Biobank: 9
+spectroscopy: 9
+high content screen: 9
+mental health: 9
+plasmid: 9
+sequence variant: 8
+DNA microarray: 8
+mass spectrometry assay: 8
+literature curation: 8
+cDNA: 8
+pathogen: 8
+molecular interaction: 8
+drug: 8
+Transcription Factor: 8
+chemical entity: 8
+pathway: 8
+miRNA: 8
+strain: 8
+Magnetic Resonance Imaging: 8
+Agroecosystem: 8
+polypeptide region: 7
+graph: 7
+study design: 7
+QTL: 7
+tissue: 7
+assay: 7
+tropical: 7
+optical microscopy: 7
+Protein interactions: 7
+gene-disease association: 7
+algorithm: 7
+Validation: 7
+nuclear magnetic resonance spectroscopy: 7
+X-ray crystallography 3D molecular structure determination assay: 7
+Teaching Materials: 7
+Reaction data: 7
+Radiation Effects: 7
+ChIP-seq assay: 7
+biological regulation: 7
+stem cell: 7
+Natural Language Processing: 6
+Parkinson's disease: 6
+biomarker: 6
+allele: 6
+small molecule: 6
+Knowledge representation: 6
+marine coral reef biome: 6
+sequence alignment: 6
+Rare Disorder: 6
+microarray assay: 6
+Text mining: 6
+neuron: 6
+observation design: 6
+gene model annotation: 6
+Functional Magnetic Resonance Imaging: 6
+enzyme: 6
+diagnosis: 5
+transcript: 5
+RNA sequence: 5
+microbiome: 5
+infectious disease: 5
+Data identity and mapping: 5
+molecular entity: 5
+Bioenergy: 5
+Electronic Health Record: 5
+Hospital: 5
+Genome alignment: 5
+reference genome: 5
+toxicity: 5
+Network analysis: 5
+mutation analysis: 5
+GO-term enrichment data: 5
+experimentally determined: 5
+Chemical structure image: 5
+Human leukocyte antigen complex: 5
+Gene functional annotation: 5
+addiction: 5
+Neoplasm: 5
+histone: 4
+nucleotide: 4
+chromosome: 4
+Peptide identification: 4
+peptide: 4
+ligand: 4
+regulation of gene expression: 4
+Differential gene expression profiling: 4
+Agricultural products: 4
+liver: 4
+chromosome structure variation: 4
+Cropping systems: 4
+cystolic 16S rRNA: 4
+nucleic acid: 4
+web service: 4
+biological_process: 4
+DNA sequencing assay: 4
+Positron Emission Tomography: 4
+bioactive entity: 4
+Data retrieval: 4
+cell culture: 4
+electroencephalography: 4
+immune system: 4
+Genome map: 4
+regulatory region: 4
+Evolution: 4
+Gene Knockout: 4
+disease phenotype: 4
+orthologous: 4
+genetic interaction (sensu unexpected): 4
+Multiple sequence alignment: 4
+blood: 4
+Protein-Protein Interaction: 4
+chromosomal aberration: 3
+Protein identification: 3
+device: 3
+insertion sequence: 3
+read: 3
+Natural Product: 3
+liver disease: 3
+kidney disease: 3
+Major Histocompatibility Complex: 3
+allele frequency: 3
+Receptor: 3
+super-resolution bright-field microscopy: 3
+Nucleic acid sequence alignment: 3
+disorder: 3
+PCR primers: 3
+morphology: 3
+enhancer: 3
+chromatin binding: 3
+binding site: 3
+autistic disorder: 3
+Gene prediction: 3
+Data acquisition: 3
+Genetic map: 3
+sample preparation for assay: 3
+material processing: 3
+Clone library: 3
+malaria: 3
+transport: 3
+Protein Expression: 3
+nanoparticle: 3
+Immunity: 3
+Laboratory animal science: 3
+treatment: 3
+Receptors, KIR: 3
+CAGE: 3
+DNA methylation: 3
+signaling: 3
+disease course: 3
+animal organ development: 3
+sequence motif: 3
+sleep: 3
+ChIP-chip assay: 3
+whole genome sequencing assay: 3
+mitochondrial sequence: 3
+drug dependence: 3
+germplasm: 3
+monoatomic ion channel activity: 3
+marine metagenome: 3
+Protein Analysis: 3
+metabolite: 3
+Genetic Marker: 3
+Raman spectroscopy: 3
+Chemical formula: 3
+Diffusion Tensor Imaging: 3
+whole mount tissue: 3
+Regulation: 2
+transposable element: 2
+diabetes mellitus: 2
+Safety Study: 2
+regulatory ncRNA-mediated post-transcriptional gene silencing: 2
+light-sheet illumination: 2
+Crowdsourcing: 2
+substance abuse: 2
+flanking region: 2
+tag: 2
+RNA secondary structure: 2
+ribosomal RNA: 2
+Drug report: 2
+pain: 2
+Cellular Assay: 2
+flow cytometry assay: 2
+promoter: 2
+Cell morphology: 2
+Adverse Reaction: 2
+post-translational protein modification: 2
+Metagenome: 2
+measurement: 2
+molecular_function: 2
+cellular_component: 2
+infrared spectroscopy: 2
+exposure: 2
+Peptide Library: 2
+Raw microarray data: 2
+miRNA-mediated post-transcriptional gene silencing: 2
+mRNA: 2
+Reproducibility: 2
+organ: 2
+Recombinant DNA: 2
+antimicrobial agent: 2
+infection process: 2
+real time polymerase chain reaction assay: 2
+heart: 2
+spectrum: 2
+cell division: 2
+radiotherapy: 2
+intervention design: 2
+chromatin interaction analysis by paired-end tag sequencing assay: 2
+transcript analysis by paired-end tag sequencing assay: 2
+Nuclear Receptor: 2
+CRISPR: 2
+obsolete Somatic mutation: 2
+point mutation: 2
+homologous: 2
+affinity: 2
+drug interaction: 2
+human induced pluripotent stem cell line cell: 2
+Genotyping: 2
+methylation: 2
+RNA splicing: 2
+fluorescence: 2
+lipid: 2
+Drug structure: 2
+nutrient: 2
+catalytic activity: 2
+primer: 2
+protein-containing complex: 2
+Post-translational modification site prediction: 2
+cellular localization: 2
+Protein domain: 2
+Function analysis: 2
+retrotransposon: 2
+Enzyme Commission number: 2
+Quantification: 2
+B cell receptor complex: 2
+Gene Feature: 2
+embryonic stem cell: 2
+epilepsy: 2
+Intrinsically Disordered Proteins: 1
+chromatography: 1
+translational initiation: 1
+chemical screen: 1
+vaccine: 1
+Benchmarking: 1
+nurse: 1
+Digenic inheritance: 1
+protein expression profiling assay: 1
+High Throughput Screening: 1
+multicellular: 1
+CD spectra: 1
+ncRNA: 1
+Gene name: 1
+Untranslated RNA: 1
+RNAi screen: 1
+microbe-host interaction phenotype: 1
+gene array: 1
+array design: 1
+animation: 1
+plastid: 1
+organelle: 1
+cell cycle: 1
+antigen: 1
+Cytogenetic map: 1
+coexpression: 1
+karyotype: 1
+Quantitative Structure-Activity Relationship: 1
+alternative mRNA splicing, via spliceosome: 1
+comparative genomic hybridization by array: 1
+bone disease: 1
+vaccination: 1
+lncRNA: 1
+patent: 1
+Tracking: 1
+chloroplast sequence: 1
+morbidity: 1
+immunohistochemistry: 1
+tRNA: 1
+Oligonucleotide probe annotation: 1
+data transformation: 1
+protein sequence identification: 1
+Sequence similarity: 1
+Michaelis constant: 1
+inhibitory constant: 1
+binding: 1
+small molecule binding: 1
+association: 1
+molecular weight: 1
+exon: 1
+intron: 1
+language disorder: 1
+protein secretion: 1
+Quality Control: 1
+pre miRNA: 1
+Hybridoma: 1
+host: 1
+RNA modification: 1
+UTR: 1
+viral sequence: 1
+insertion: 1
+protein modification process: 1
+electrocardiography: 1
+cardiovascular disease: 1
+target: 1
+protein localization: 1
+ultraviolet-visible spectroscopy: 1
+cis: 1
+cloning plasmid: 1
+sequence feature: 1
+operon: 1
+prophage: 1
+cryptic prophage: 1
+Sequence cluster: 1
+disease onset/diagnosis measurement: 1
+enzymatic reaction: 1
+Physical map: 1
+T cell receptor complex: 1
+protein acetylation: 1
+inflammatory response: 1
+Founder Effect: 1
+Protein image: 1
+copy number variation: 1
+stereo microscope: 1
+internal ribosome entry site: 1
+Concentration: 1
+injury: 1
+mitochondrion: 1
+obsolete_mitochondrial disease: 1
+life cycle stage: 1
+splice site: 1
+miRNA target site: 1
+xenobiotic metabolic process: 1
+Proteolytic digest: 1
+Protein cleavage site prediction: 1
+probe: 1
+immunoglobulin complex: 1
+protease cleavage: 1
+siRNA: 1
+protease site: 1
+biofilm: 1
+Viral Genome: 1
+microsatellite: 1
+mycotoxin: 1
+allergen: 1
+human embryonic stem cell line cell: 1
+pluripotent stem cell: 1
+Differential protein expression profiling: 1
+
+--- USER_DEFINED_TAGS ---
+Total Unique: 437
+institutional repository: 225
+COVID-19: 83
+Geospatial Data: 63
+Geographic Information System (GIS): 58
+Observations: 32
+urban science: 27
+earth observation: 26
+Dashboard: 26
+Climate change: 24
+digital humanities: 19
+Temperature: 19
+Open Science: 19
+Satellite Data: 18
+public policy: 16
+Seismology: 15
+digital library: 15
+Neuroinformatics: 12
+Topography: 12
+Cryosphere: 11
+Earthquake: 9
+biogeochemistry: 9
+Arctic: 9
+Aerosol: 9
+Salinity: 9
+Forecasting: 9
+single cell: 8
+Ozone: 8
+Sedimentology: 7
+Plankton: 7
+spatial data: 7
+weather: 7
+x-ray: 7
+Land use: 7
+Conservation: 6
+transportation data: 6
+precipitation: 6
+infrastructure: 6
+Geological mapping: 6
+Renewable Energy: 6
+Antarctic: 6
+ecotoxicity: 6
+algebra: 6
+geometry: 6
+cultural heritage: 6
+lidar: 6
+Pollution: 6
+Greenhouse gases: 6
+Language: 5
+Plasma Physics: 5
+heliophysics: 5
+Carbon: 5
+Plant Phenotypes and Traits: 5
+Cloud: 5
+Wind: 5
+biomechanics: 5
+Metadata standardization: 5
+digital preservation: 5
+motion capture: 5
+space weather: 5
+Wildlife Ecology: 5
+Troposphere: 4
+Volcano: 4
+Single cell gene expression: 4
+Map: 4
+Marine Chemistry: 4
+genomic variation: 4
+preprints: 4
+Bathymetry: 4
+finance: 4
+Pressure: 4
+Neuroanatomy: 4
+neurology disease: 4
+Glacier: 4
+Gas: 4
+mobility: 4
+Sanitation: 4
+Geochronology: 4
+Environmental Health: 4
+Carbon cycle: 4
+Topology: 4
+Social Media: 4
+mass spectrometry: 4
+Air: 3
+conference: 3
+permafrost: 3
+Digital pathology: 3
+cybersecurity: 3
+regional economy: 3
+Paleobiology: 3
+X-ray Computed Tomography (CT): 3
+Coast: 3
+High Energy Physics: 3
+geothermal energy: 3
+marine energy: 3
+Grassland Research: 3
+Employment: 3
+Geomagnetism: 3
+Ultraviolet Rays: 3
+CO2 emission: 3
+Neutron Science: 3
+Nuclear physics: 3
+exposomics: 3
+ice: 3
+Psoriasis: 3
+Pre-clinical imaging: 3
+land survey: 3
+Alzheimer’s disease: 3
+development economics: 3
+Storm: 3
+Sea ice: 3
+single cell rna-seq: 2
+Drug resistance: 2
+Mutants: 2
+spatial transcriptome: 2
+neurodegenerative diseases: 2
+Paleoclimatology: 2
+cyberinfrastructure: 2
+gerontology: 2
+educational research: 2
+Flanking Sequence Tags (FST): 2
+ecosystem services: 2
+spatial planning: 2
+landscape architecture: 2
+sample and collection management manual: 2
+Multi-omics: 2
+Drug Target: 2
+portuguese: 2
+polar: 2
+circrna: 2
+International Relations: 2
+Hydrography: 2
+wind energy: 2
+building energy: 2
+energy systems integration: 2
+tomography: 2
+tourism: 2
+Computational Materials Science: 2
+Field Research: 2
+Ocean Acidification: 2
+Oxygen: 2
+Humanitarian Studies: 2
+Fire Research: 2
+Species-environment interaction: 2
+Waste: 2
+administrative data: 2
+Radiomics: 2
+Pregnancy: 2
+forestry: 2
+Drilling: 2
+subseafloor environments: 2
+soil carbon: 2
+Soil pH: 2
+Soil texture: 2
+soil physics: 2
+soil chemistry: 2
+Management: 2
+Electromagnetism: 2
+Solar activity: 2
+Invasive Species: 2
+Applied Forest Research: 2
+natural hazards: 2
+social development: 2
+Paleolithic: 2
+Tectonics: 2
+Experimental condition: 2
+Method descriptions: 2
+Fluxomics: 2
+Multiple Sclerosis: 2
+Solar physics: 2
+dissertation: 2
+sport sciences: 2
+childhood cancer: 2
+Digital reconstruction: 2
+Civic Education: 2
+Zooplankton: 2
+transportation: 2
+Natural Disaster: 2
+Photography: 2
+Sensor data: 2
+Cirrhosis: 2
+hepatology: 2
+Chemical oceanography: 2
+hydrokinetic energy: 2
+Fossil Fuel: 2
+humidity: 2
+snow: 2
+Moisture: 2
+Data coordination: 1
+infectious disease: 1
+Glycome: 1
+lactic acid bacteria antibacterial peptide: 1
+Paleoceanography: 1
+times-series: 1
+Translatomics: 1
+Spinal Cord: 1
+Spinal Cord Injury: 1
+Lineages: 1
+spatial omics: 1
+journal article: 1
+books: 1
+book chapters: 1
+conference proceedings: 1
+graph theory: 1
+Land Change Science: 1
+Plant-microbe interactions: 1
+music: 1
+Traumatic Brain Injury: 1
+Built Environment: 1
+spatial modeling: 1
+land use monitoring: 1
+genetic score: 1
+Digenic disease: 1
+Electricity: 1
+Protein-protein interaction modulators: 1
+Magma: 1
+combinatorial statistics: 1
+sociology of education: 1
+metabarcoding: 1
+monkeypox: 1
+glaciology: 1
+scanning electron microscopy (sem) and transmission electron microscopy (tem): 1
+engineering and technology: 1
+Signal processing: 1
+globalized economy: 1
+medical devices: 1
+pandemic preparedness: 1
+Peat: 1
+Metatranscriptome: 1
+Satellite Laser Ranging: 1
+celiac disease: 1
+integer sequence: 1
+biosynthetic gene clusters: 1
+Terrorism: 1
+Antimicrobial resistance: 1
+Commerce: 1
+judiciary: 1
+cosmochemistry: 1
+Lunar: 1
+Meteorites: 1
+aurora: 1
+Human Platelet Antigens (HPA): 1
+organisation of information and knowledge resources: 1
+epigraphy: 1
+Religion: 1
+Methane: 1
+nitrous oxide: 1
+Bioacoustic: 1
+Lithology: 1
+number theory: 1
+research & development: 1
+Genomic rearrangement: 1
+gender studies: 1
+Funding bodies: 1
+prognostic algorithms: 1
+Biota: 1
+biochemical activities: 1
+toxicokinetics: 1
+computational toxicology: 1
+environmental fate: 1
+predictive models: 1
+risk assessment: 1
+qspr: 1
+phylogenetic matrix: 1
+RNA-binding protein target sites: 1
+volcanology: 1
+SDM modelling data: 1
+Trait modelling data: 1
+genomic risk score: 1
+polygenic risk score: 1
+polygenic score: 1
+tropical disease: 1
+Drug-like compound: 1
+mammography: 1
+cosmological simulations: 1
+pacific: 1
+techical economics: 1
+ionosphere: 1
+Magnetometer: 1
+Optical spectrometer: 1
+Riometer: 1
+Extracorporeal membrane oxygenation: 1
+Mitochondrial tRNA: 1
+ring theory: 1
+Mapping information and coding potential: 1
+alopecia: 1
+atopic dermatitis: 1
+Astrobiology: 1
+Geomicrobiology: 1
+population health: 1
+Carbon dating: 1
+Radiometric dating: 1
+Structure From Motion: 1
+yeasts: 1
+Igneous Petrology: 1
+Micropaleontology: 1
+Paleomagnetism: 1
+microscale thermophoresis: 1
+bio-layer interferometry: 1
+surface plasmon resonance: 1
+isothermal titration calorimetry: 1
+sample description: 1
+sample quality: 1
+fire: 1
+Disability Status: 1
+Global Positioning System: 1
+Impulsivity: 1
+Mindset: 1
+Introduced Species: 1
+open scholarship: 1
+biocatalysis: 1
+Immune repertoire analysis: 1
+Bowel disease: 1
+myalgic encephalomyelitis: 1
+chronic fatigue syndrome: 1
+Livestock: 1
+deep-sea observations: 1
+aquatic environment: 1
+SAXS: 1
+Small angle scattering: 1
+molecular glue: 1
+community resource: 1
+nursing: 1
+politics: 1
+voting: 1
+randomised controlled trials: 1
+case report form: 1
+subject diary: 1
+statistical analysis plan: 1
+informed consent form: 1
+Insertion allele: 1
+numerical experiment: 1
+Raw microarray data: 1
+Surface protein markers: 1
+paleoanthropology: 1
+paleobotany: 1
+ichnology: 1
+Kinesiology: 1
+kidney transplantation: 1
+liver transplantation: 1
+enterprise activity: 1
+technological innovation: 1
+citizen science: 1
+emblematica: 1
+Trade: 1
+industry: 1
+Conjugative plasmid: 1
+Expression plasmid: 1
+Molecules per cell: 1
+Phantom genes: 1
+Unmapped gene: 1
+ontology mapping: 1
+advanced manufacturing: 1
+agrivoltaics: 1
+hydrogen fuel cells: 1
+fuel cells: 1
+solar power: 1
+water power: 1
+Savannah: 1
+Tundra: 1
+Social Welfare Policy: 1
+Ectomycorrhizae: 1
+Patient derived xenograft PDX: 1
+Disaster Risk Management: 1
+Poly T motifs as possible transcription termination signals: 1
+Genome Context: 1
+Non-clinical trial: 1
+Consumer: 1
+Stratosphere: 1
+Unidentified influenza virus: 1
+Tropopause: 1
+Water vapor: 1
+cellular senescence: 1
+autonomic nervous system: 1
+peripheral nervous system: 1
+vagus nerve: 1
+Road: 1
+Recycling: 1
+Paleoseismology: 1
+Tide: 1
+MicroED: 1
+Cyclonic Storm: 1
+Lightning: 1
+Microwave: 1
+Amyloid: 1
+Protein aggregation: 1
+Steric zippers: 1
+Functional impact of genetic variants: 1
+Catalysis: 1
+Sunspot: 1
+mass spectrometry quantification: 1
+thermal ionization mass spectrometry: 1
+accelerator mass spectrometry: 1
+Nanosafety: 1
+Topographical Relief: 1
+spectrometer: 1
+biological rhythms: 1
+circadian biology: 1
+precision medicine: 1
+GPS: 1
+french: 1
+event: 1
+Sound: 1
+Resting state functional magnetic resonance imaging (R-fMRI): 1
+reverse osmosis: 1
+membrane: 1
+container: 1
+genetic test: 1
+Childbearing: 1
+Income: 1
+Marriage: 1
+Mycology: 1
+tuberculosis: 1
+herbarium: 1
+topological counterexamples: 1
+birth: 1
+fertility: 1
+Migration: 1
+Mortality: 1
+film: 1
+Systems toxicology: 1
+chemical safety: 1
+Biopsy: 1
+Activism: 1
+Civic Engagement: 1
+Critical Consciousness: 1
+Media Literacy: 1
+Political Development: 1
+thermochronology: 1
+European art history: 1
+Industrial design: 1
+sickle cell disease: 1
+Fuel Oil: 1
+economic: 1
+search: 1
+Ceramics: 1
+Lamps: 1
+cross-species: 1
+
+--- SUBJECTS ---
+Total Unique: 375
+Life Science: 333
+Earth Science: 270
+Subject Agnostic: 247
+Environmental Science: 199
+Biomedical Science: 162
+Social Science: 113
+Oceanography: 110
+Clinical Studies: 109
+Genomics: 106
+Atmospheric Science: 102
+Biodiversity: 93
+Health Science: 90
+Epidemiology: 82
+Humanities and Social Science: 66
+Economics: 66
+Meteorology: 59
+Geology: 58
+Agriculture: 55
+Medicine: 51
+Bioinformatics: 50
+Geophysics: 48
+Ecology: 48
+Social and Behavioural Science: 47
+Public Health: 47
+Biology: 46
+Chemistry: 43
+Neuroscience: 42
+Genetics: 41
+Computer Science: 41
+Hydrology: 39
+Astronomy and Astrophysics: 39
+Preclinical Studies: 38
+Virology: 38
+Humanities: 37
+Demographics: 37
+Data Management: 37
+Medical Virology: 37
+Physics: 36
+Geography: 35
+Marine Biology: 34
+Transcriptomics: 34
+Computational Biology: 32
+Proteomics: 32
+Education Science: 31
+Infectious Disease Medicine: 30
+Political Science: 30
+Ecosystem Science: 30
+Natural Science: 29
+Botany: 29
+Mathematics: 28
+Remote Sensing: 26
+Materials Science: 26
+History: 25
+Linguistics: 24
+Microbiology: 24
+Urban Planning: 22
+Archaeology: 22
+Comparative Genomics: 21
+Statistics: 21
+Geochemistry: 21
+Neurobiology: 21
+Functional Genomics: 20
+Metabolomics: 20
+Soil Science: 20
+Engineering Science: 20
+Systems Biology: 19
+Artificial Intelligence: 18
+Taxonomy: 18
+Structural Biology: 18
+Geodesy: 17
+Molecular biology: 16
+Energy Engineering: 16
+Hydrogeology: 16
+Water Research: 16
+Critical Care Medicine: 16
+Metagenomics: 15
+Forest Management: 15
+Geoinformatics: 15
+Water Management: 15
+Biochemistry: 15
+Anthropology: 14
+Paleontology: 14
+Immunology: 14
+Psychology: 14
+Cell Biology: 14
+Medical Informatics: 13
+Pediatrics: 13
+Nutritional Science: 13
+Omics: 13
+Applied Linguistics: 12
+Physical Geography: 12
+Culture: 12
+Toxicology: 12
+Epigenetics: 12
+Computational Neuroscience: 12
+Oncology: 12
+Communication Science: 12
+Fisheries Science: 11
+Freshwater Science: 11
+Civil Engineering: 11
+Human Genetics: 11
+Epigenomics: 11
+Pharmacology: 11
+Zoology: 11
+Economic and Social History: 10
+Cultural Studies: 10
+Anatomy: 10
+Cognitive Neuroscience: 10
+Phenomics: 10
+Astrophysics: 9
+data visualization: 9
+Agricultural Economics: 9
+Agronomy: 9
+Mineralogy: 9
+Natural History: 9
+Cosmology: 9
+Neurophysiology: 9
+Neurology: 8
+Social Medicine: 8
+Social Psychology: 8
+Data Governance: 8
+Immunogenetics: 8
+Primary Health Care: 8
+Translational Medicine: 8
+Social Policy: 8
+Database Management: 8
+Bioengineering: 8
+Global Health: 8
+Plant Genetics: 7
+Data Integration: 7
+Population Dynamics: 7
+Knowledge and Information Systems: 7
+Art History: 7
+Hydrography: 7
+Observational Astronomy: 7
+Phylogenetics: 7
+Cartography: 7
+Public Finance: 7
+Informatics: 7
+Data Protection: 7
+Nanotechnology: 7
+Plant Breeding: 7
+Fine Arts: 7
+Biotechnology: 7
+Art: 7
+Health Services Research: 7
+Organic Chemistry: 7
+Policy: 6
+Solar physics: 6
+Human Biology: 6
+Applied Mathematics: 6
+Pure Mathematics: 6
+Food Security: 6
+Population Genetics: 6
+Architecture: 6
+Electrical Engineering: 6
+Systems Engineering: 6
+Transportation Planning: 6
+Plant Ecology: 6
+Atomic, Molecular, Optical and Plasma Physics: 6
+Phylogeny: 6
+Analytical Chemistry: 6
+Prehistory: 6
+Physical Chemistry: 6
+Research on Teaching, Learning and Training: 5
+Tropical Medicine: 5
+Plant Cell Biology: 5
+Religious Studies: 5
+Metatranscriptomics: 5
+Human Geography: 5
+Criminology: 5
+Bathymetry: 5
+Systemic Neuroscience: 5
+Drug Discovery: 5
+Rural and Agricultural Sociology: 5
+Empirical Social Research: 5
+Jurisprudence: 5
+Metaproteomics: 5
+Data Mining: 5
+Agricultural Engineering: 5
+Pathology: 5
+Electrophysiology: 5
+Data Quality: 5
+Materials Engineering: 5
+Industrial Engineering: 5
+Media Studies: 5
+Medicinal Chemistry: 5
+Biophysics: 5
+Computational Chemistry: 5
+Molecular Chemistry: 5
+Particles, Nuclei and Fields: 5
+Business Administration: 5
+Agroecology: 5
+Historical Linguistics: 4
+Glycomics: 4
+Educational Psychology: 4
+Developmental Psychology: 4
+Animal Genetics: 4
+Musicology: 4
+Molecular Microbiology: 4
+Entomology: 4
+Clinical Psychology: 4
+History of Science: 4
+Robotics: 4
+Microbial Ecology: 4
+Econometrics: 4
+Animal Husbandry: 4
+Plant Anatomy: 4
+Phylogenomics: 4
+Digital Image Processing: 4
+Planetary Astronomy: 4
+Pharmacy: 4
+Developmental Biology: 4
+Physiology: 4
+Synthetic Biology: 4
+Cellular Neuroscience: 4
+Geotechnics: 4
+Synthetic Chemistry: 4
+Medical Microbiology: 3
+Medical Physics: 3
+Ancient History: 3
+Medieval History: 3
+Modern History: 3
+Legal History: 3
+Molecular Dynamics: 3
+Community Care: 3
+Plant Nutrition: 3
+Farming Systems Research: 3
+Plant Cultivation: 3
+Surgery: 3
+Industrial and Organisational Psychology: 3
+Microbial Genetics: 3
+Aquaculture: 3
+Building Engineering Physics: 3
+Maritime Engineering: 3
+Economic Policy: 3
+Nuclear Medicine: 3
+Radiology: 3
+Materials Informatics: 3
+Public Law: 3
+High Energy Astrophysics: 3
+Enzymology: 3
+Theoretical Chemistry: 3
+Aerospace Engineering: 3
+Behavioural Biology: 3
+Obstetrics: 3
+Plant Physiology: 3
+Thermodynamics: 3
+Hydraulic Engineering: 3
+Veterinary Medicine: 3
+Power Engineering: 3
+Ancient Cultures: 3
+History of Philosophy: 2
+Area Studies: 2
+Toxicogenomics: 2
+Landscape Planning: 2
+Molecular Genetics: 2
+Differential Psychology: 2
+Medical Toxicology: 2
+Cheminformatics: 2
+Chemical Biology: 2
+Cultural Anthropology: 2
+Jewish Studies: 2
+Biological Psychology: 2
+Proteogenomics: 2
+Medical Psychology: 2
+Personalized Medicine: 2
+Biomaterials: 2
+Functional Materials Research: 2
+Stellar Astronomy: 2
+Lipidomics: 2
+Asian Studies: 2
+Gynecology: 2
+Evolutionary Biology: 2
+Parasitology: 2
+Dermatology: 2
+Reproductive Health: 2
+Soft Matter Physics: 2
+Logistics Engineering: 2
+Applied Microbiology: 2
+Respiratory Medicine: 2
+Cardiology: 2
+Neurogenetics: 2
+Hematology: 2
+Molecular Neuroscience: 2
+Comparative Neurobiology: 2
+Classical Philology: 2
+Limnology: 2
+Mechanical Engineering: 2
+Construction Engineering: 2
+Building Design: 2
+Solid-State Chemistry: 2
+Synthesis Chemistry: 2
+Inorganic Molecular Chemistry: 2
+Gastroenterology: 2
+Chemical Engineering: 2
+Process Engineering: 2
+Developmental Neurobiology: 2
+Animal Physiology: 2
+African Studies: 1
+Medical Biometry: 1
+Early Modern History: 1
+Exoplanet Astronomy: 1
+Metataxonomics: 1
+Endocrinology: 1
+Social Anthropology: 1
+Agricultural Law: 1
+Applied Mechanics: 1
+Selenography: 1
+Occupational Medicine: 1
+Surface Science: 1
+Solar System Astronomy: 1
+Economic Theory: 1
+Mathematical Psychology: 1
+Telecommunication Engineering: 1
+Composite Materials: 1
+Mechanical Behaviour of Construction Materials: 1
+Microstructural Mechanical Properties of Materials: 1
+Materials Structuring and Functionalisation: 1
+Fluid Mechanics: 1
+Professional Socialization: 1
+Theoretical Computer Science: 1
+Drug Metabolism: 1
+Private Law: 1
+Molecular Medicine: 1
+Dentistry: 1
+Criminal Law: 1
+Quantitative Genetics: 1
+Radiation Oncology: 1
+Acoustics: 1
+Musculoskeletal Medicine: 1
+Oceania Studies: 1
+Photogrammetry: 1
+Psychotherapy: 1
+Psychiatry: 1
+Pharmacogenomics: 1
+Transfusion Medicine: 1
+Galactic and Extragalactic Astronomy: 1
+Clinical Chemistry: 1
+Drug Development: 1
+Software Engineering: 1
+Polymer Research: 1
+Radiobiology: 1
+Polymer Chemistry: 1
+Food Chemistry: 1
+Polymer Physics: 1
+Thermal Engineering: 1
+Biomimetic Chemistry: 1
+Technical Chemistry: 1
+Structural Engineering: 1
+Traditional Medicine: 1
+Metal-Cutting Manufacturing Engineering: 1
+Plastics Engineering: 1
+Mechanical Process Engineering: 1
+Biological Process Engineering: 1
+Human-Machine Systems Engineering: 1
+Component Engineering: 1
+Food Process Engineering: 1
+Condensed Matter Physics: 1
+Theoretical Condensed Matter Physics: 1
+Egyptology: 1
+Geriatric Medicine: 1
+Thermal Technology: 1
+Sustainable Building Technology: 1
+Traumatology: 1
+Horticulture: 1
+Embryology: 1
+Molecular Neurology: 1
+Medicines Research and Development: 1
+Electromagnetism: 1
+Literary Studies: 1
+Rheumatology: 1
+Clinical Veterinary Medicine: 1
+Theatre Studies: 1
+Philosophy: 1
+
+--- TAXONOMIES ---
+Total Unique: 356
+Not applicable: 751
+All: 464
+Homo sapiens: 332
+Mus musculus: 67
+SARS-CoV-2: 41
+Bacteria: 26
+Plantae: 23
+Rattus norvegicus: 20
+Fungi: 20
+Eukaryota: 17
+Viruses: 17
+Drosophila melanogaster: 16
+Caenorhabditis elegans: 15
+Archaea: 15
+Arabidopsis thaliana: 15
+Danio rerio: 15
+Saccharomyces cerevisiae: 14
+Drosophila: 13
+Animalia: 9
+Vertebrata: 8
+Escherichia coli: 7
+Schizosaccharomyces pombe: 7
+Coronaviridae: 7
+Mus: 6
+Gallus gallus: 6
+Algae: 6
+Prokaryota: 6
+Viridiplantae: 6
+Human immunodeficiency virus: 6
+Macaca mulatta: 5
+Oryza: 5
+Protozoa: 5
+Plasmodium falciparum: 4
+Zea mays: 4
+Rattus: 4
+Canis familiaris: 4
+Brassica: 4
+Caenorhabditis: 4
+Musa: 4
+Bacillus subtilis: 3
+Mycobacterium: 3
+Aedes aegypti: 3
+Cyanobacteria: 3
+Arthropoda: 3
+Bos taurus: 3
+Canis: 3
+Macaca fascicularis: 3
+Pan troglodytes: 3
+Rattus rattus: 3
+Sus scrofa: 3
+Staphylococcus: 3
+Rhesus macaques: 3
+Chordata: 3
+Branchiostoma lanceolatum: 3
+Streptococcus: 3
+Lactobacillus: 2
+Neurospora crassa: 2
+Staphylococcus aureus: 2
+Bifidobacterium: 2
+Neisseria: 2
+Callithrix jacchus: 2
+Equus caballus: 2
+Felis catus: 2
+Macaca nemestrina: 2
+Pongo abelii: 2
+Pongo pygmaeus: 2
+Aves: 2
+Apis mellifera: 2
+Tribolium castaneum: 2
+Oryza sativa: 2
+Daphnia magna: 2
+Oryzias latipes: 2
+Zaire ebolavirus: 2
+Lepidoptera: 2
+Pristionchus pacificus: 2
+Rodentia: 2
+Triticum aestivum: 2
+Nematoda: 2
+Anopheles gambiae: 2
+Clostridium Difficile: 2
+Canis lupus familiaris: 2
+Leishmania: 2
+Plasmodium: 2
+Bacillariophyta: 2
+Basidiomycota: 2
+Bryophyta: 2
+Culicidae: 2
+Lichens: 2
+Saccharomyces: 2
+Mammalia: 2
+Ascomycota: 2
+Chromista: 2
+Nematostella vectensis: 2
+Branchiostoma floridae: 2
+Branchiostoma belcheri: 2
+Ashbya gossypii: 2
+Cryptosporidium: 2
+Metazoa: 2
+Hepatitis B virus: 2
+Campylobacter: 2
+Hepatitis C virus: 2
+Mycobacterium tuberculosis: 2
+Invertebrata: 2
+Bacteriophage lambda: 1
+Caulobacter crescentus: 1
+Human herpesvirus 5: 1
+Streptomyces coelicolor: 1
+Trypanosoma brucei: 1
+Xenopus laevis: 1
+Mycobacterioides: 1
+Mycolicibacillus: 1
+Mycolicibacter: 1
+Mycolicibacterium: 1
+Synechocystis: 1
+Blautia: 1
+Faecalibacterium prausnitzii: 1
+Fusobacteria: 1
+Lachnospiraceae: 1
+Parabacteroides: 1
+Prevotella: 1
+Roseburia: 1
+Aotus azarae: 1
+Aotus nancymaae: 1
+Aotus nigriceps: 1
+Aotus trivirgatus: 1
+Aotus vociferans: 1
+Ateles belzebuth: 1
+Ateles fusciceps: 1
+Bison bison: 1
+Callicebus moloch: 1
+Cebuella pygmaea: 1
+Cebus apella: 1
+Cercopithecus mitis: 1
+Cercopithicus neglectus: 1
+Chlorocebus aethiops: 1
+Colobus guereza: 1
+Gorilla gorilla: 1
+Hylobates lar: 1
+Lemur catta: 1
+Leontopithecus rosalia: 1
+Lophocebus aterrimus: 1
+Macaca arctoides: 1
+Macaca fuscata: 1
+Macaca silenus: 1
+Mandrillus leucophaeus: 1
+Mandrillus sphinx: 1
+Oncorhynchus mykiss: 1
+Ovis aries: 1
+Pan paniscus: 1
+Papio anubis: 1
+Papio cynocephalus: 1
+Papio hamadryas: 1
+Papio papio: 1
+Papio ursinus: 1
+Pithecia pithecia: 1
+Presbytis entellus: 1
+Saguinus fuscicollis: 1
+Saguinus geoffroyi: 1
+Saguinus mystax: 1
+Saguinus oedipus: 1
+Saimiri sciureus: 1
+Salmo salar: 1
+Theropithecus gelada: 1
+Nicotiana benthamiana: 1
+Antirrhinum majus: 1
+Scleractinia: 1
+Actinomycetales: 1
+Bombyx mori: 1
+Chroococcales: 1
+Nostocales: 1
+Oscillatoriales: 1
+Acinetobacter pittii: 1
+Aspergillus fumigatus: 1
+Aspergillus niger: 1
+Aspergillus terreus: 1
+Aureobasidium pullulans: 1
+Bacillus: 1
+Beauveria bassiana: 1
+Brassica rapa: 1
+Candida albicans: 1
+Ceratopteris richardii: 1
+Cladosporium cladosporioides: 1
+Cladosporium sphaerospermum: 1
+Enterobacter: 1
+Enterobacteria phage lambda: 1
+Euprymna scolopes: 1
+Fusarium solani: 1
+Klebsiella: 1
+Mycobacterium marinum: 1
+Pantoea conspicua: 1
+Pseudomonas aeruginosa: 1
+Rhodospirillum rubrum: 1
+Streptococcus mutans: 1
+Trichoderma virens: 1
+Taeniopygia guttata: 1
+Bos indicus: 1
+Bubalus bubalis: 1
+Aphididae: 1
+Plasmodium vivax: 1
+Schistosoma: 1
+Trypanosoma cruzi: 1
+Cnidaria: 1
+Spodoptera frugiperda: 1
+Chelicerata: 1
+Diptera: 1
+Gastropoda: 1
+Hemiptera: 1
+Ixodida: 1
+Phthiraptera: 1
+Brassica napus: 1
+Formicidae: 1
+Glycine max: 1
+Hordeum vulgare L.: 1
+Solanum lycopersicum: 1
+Agnatha: 1
+Chondrichthyes: 1
+Gnathostomata: 1
+Anthozoa: 1
+Drupella cornus: 1
+Rhincodon typus: 1
+Bacteriophage sp.: 1
+Oryctolagus cuniculus: 1
+Paracentrotus lividus: 1
+Phallusia mammillata: 1
+Sphaerechinus granularis: 1
+Cricetulus griseus: 1
+Enterovirus: 1
+Human metapneumovirus: 1
+Orthoflavivirus zikaense: 1
+Influenza virus: 1
+Musa acuminata: 1
+Musa balbisiana: 1
+Helmintha: 1
+Cajanus cajan: 1
+Cicer arietinum: 1
+Lens culinaris: 1
+Lupinus angustifolius: 1
+Phaseolus vulgaris: 1
+Pisum sativum: 1
+Vicia faba: 1
+Vigna angularis: 1
+Vigna radiata: 1
+Vigna unguiculata: 1
+Vigna subterranea: 1
+Vicia sativa: 1
+Ensete: 1
+Canis lupus: 1
+Cuon alpinus: 1
+Primates: 1
+Burkholderia pseudomallei: 1
+Burkholderia thailandensis: 1
+Cryptosporidium parvum: 1
+Emericella nidulans: 1
+Kluyveromyces lactis: 1
+Monosiga brevicollis: 1
+Patiria miniata: 1
+Strongylocentrotus purpuratus: 1
+Trichoplax adhaerens: 1
+Tuber melanosporum: 1
+Vibrio harveyi: 1
+Zymoseptoria tritici: 1
+Oryza sativa L. ssp. Indica: 1
+Oryza sativa L. ssp. japonica: 1
+Oomycota: 1
+Sinorhizobium meliloti: 1
+Bombus terrestris: 1
+Medicago truncatula: 1
+Magnaporthe grisea: 1
+Candidatus Liberibacter asiaticus: 1
+Citrus: 1
+Citrus clementina: 1
+Citrus sinensis: 1
+Poncirus: 1
+Citrus ichangensis: 1
+Citrus reticulata: 1
+Citrus maxima: 1
+Citrus medica: 1
+Poncirus trifoliata: 1
+Fortunella hindsii: 1
+Pteridophyta: 1
+Aspergillus: 1
+Bos: 1
+Herpesviridae: 1
+Coffea: 1
+Elaeis: 1
+Gossypium: 1
+Hevea: 1
+Saccharum officinarum: 1
+Theobroma cacao: 1
+anaplasma phagocytophylum: 1
+Babesiidae: 1
+Bacillus anthracis: 1
+Borrelia: 1
+Brucella: 1
+Chalmydia psittaci: 1
+Chlamydia: 1
+Chlamydia trachomatis: 1
+Clostridium tetani: 1
+Coccidioides: 1
+Corynebacterium diphtheriae: 1
+Dengue virus: 1
+Ehrlichia chaffeensis: 1
+Entamoeba histolytica: 1
+Enterobacteriaceae: 1
+Enterovirus C: 1
+Firmicutes: 1
+Francisella tularensis: 1
+Giardia: 1
+Haemophilus influenzae: 1
+Hepatitis A virus: 1
+Human herpesvirus 3: 1
+Legionella: 1
+Listeria monocytogenes: 1
+Morbillivirus hominis: 1
+Mumps virus: 1
+Mycobacterium leprae: 1
+Neisseria gonorrhoeae: 1
+Neisseria meningitidis: 1
+Rickettsiales: 1
+Rickettsia rickettsii: 1
+Rubivirus rubellae: 1
+Salmonella: 1
+Salmonella enterica subsp.enterica: 1
+Shigella: 1
+Streptococcus pneumoniae: 1
+Treponema pallidum: 1
+Trichinella: 1
+Orthopoxvirus variola: 1
+Vibrio cholerae: 1
+West Nile virus: 1
+Orthoflavivirus flavi: 1
+Mustela putorius furo: 1
+Daphnia: 1
+Daphnia pulex: 1
+Notophthalmus viridescens: 1
+Clostridium: 1
+Haemophilus: 1
+Listeria: 1
+Yersinia: 1
+Phoenix dactylifera: 1
+Arbutus menziesii: 1
+Castanea crenata: 1
+Conium maculatum: 1
+Fraxinus sp.: 1
+Larix laricina: 1
+Notholithocarpus densiflorus: 1
+Quercus alba: 1
+Torreya taxifolia: 1
+Ulmus americana: 1
+Manihot esculenta: 1
+Basidiomycetes: 1
+Zygomycetes: 1
+Acytostelium subglobosum: 1
+Poaceae: 1
+Triticum: 1
+Triticum durum: 1
